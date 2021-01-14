@@ -47,20 +47,21 @@ login:
   }
   cout << endl;
   if (user == "Suni" && pass == "sunidt123")
-  {
-    cout << "\n\n Anda berhasil login. \n"
-         << endl;
-    system("pause");
-    system("cls");
-    goto mulaimenu;
-  }
-  else
-  {
-    cout << " Password Anda Salah \n";
-    system("pause");
-    system("cls");
-    goto login;
-  }
+    if (user == "suni.xmm2@gmail.com" && pass == "samarinda1123")
+    {
+      cout << "\n\n Anda berhasil login. \n"
+           << endl;
+      system("pause");
+      system("cls");
+      goto mulaimenu;
+    }
+    else
+    {
+      cout << " Password Anda Salah \n";
+      system("pause");
+      system("cls");
+      goto login;
+    }
   //end membuat username dan password
 
 mulaimenu: //mulai menu
